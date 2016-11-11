@@ -7,28 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C3E21951DD1C2A20065A6DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3E21941DD1C2A20065A6DC /* main.m */; };
-		9C3E21981DD1C2A30065A6DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3E21971DD1C2A30065A6DC /* AppDelegate.m */; };
-		9C3E21A01DD1C2A30065A6DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C3E219F1DD1C2A30065A6DC /* Assets.xcassets */; };
-		9C3E21A31DD1C2A30065A6DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3E21A11DD1C2A30065A6DC /* LaunchScreen.storyboard */; };
-		9C5A37C31DD556C000665775 /* TYZRichTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5A37C21DD556C000665775 /* TYZRichTabView.m */; };
-		9C5A37C91DD565F200665775 /* TestVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5A37C81DD565F200665775 /* TestVCViewController.m */; };
-		9C5A37D01DD5AF6F00665775 /* pic_001.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5A37CF1DD5AF6F00665775 /* pic_001.png */; };
+		9C5A37DF1DD5BDC500665775 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5A37D21DD5BDC500665775 /* AppDelegate.m */; };
+		9C5A37E01DD5BDC500665775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C5A37D31DD5BDC500665775 /* Assets.xcassets */; };
+		9C5A37E11DD5BDC500665775 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C5A37D51DD5BDC500665775 /* LaunchScreen.storyboard */; };
+		9C5A37E21DD5BDC500665775 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C5A37D71DD5BDC500665775 /* Info.plist */; };
+		9C5A37E31DD5BDC500665775 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5A37D81DD5BDC500665775 /* main.m */; };
+		9C5A37E41DD5BDC500665775 /* pic_001.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5A37D91DD5BDC500665775 /* pic_001.png */; };
+		9C5A37E51DD5BDC500665775 /* TestVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5A37DB1DD5BDC500665775 /* TestVCViewController.m */; };
+		9C5A37E61DD5BDC500665775 /* TYZRichTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5A37DE1DD5BDC500665775 /* TYZRichTabView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9C3E21901DD1C2A20065A6DC /* TYZRichTabView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYZRichTabView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C3E21941DD1C2A20065A6DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9C3E21961DD1C2A30065A6DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9C3E21971DD1C2A30065A6DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9C3E219F1DD1C2A30065A6DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9C3E21A21DD1C2A30065A6DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9C3E21A41DD1C2A30065A6DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9C5A37C11DD556C000665775 /* TYZRichTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYZRichTabView.h; sourceTree = "<group>"; };
-		9C5A37C21DD556C000665775 /* TYZRichTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYZRichTabView.m; sourceTree = "<group>"; };
-		9C5A37C71DD565F200665775 /* TestVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVCViewController.h; sourceTree = "<group>"; };
-		9C5A37C81DD565F200665775 /* TestVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVCViewController.m; sourceTree = "<group>"; };
-		9C5A37CF1DD5AF6F00665775 /* pic_001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic_001.png; sourceTree = "<group>"; };
+		9C5A37D11DD5BDC500665775 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TYZRichTabView/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		9C5A37D21DD5BDC500665775 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = TYZRichTabView/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		9C5A37D31DD5BDC500665775 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = TYZRichTabView/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		9C5A37D61DD5BDC500665775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C5A37D71DD5BDC500665775 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TYZRichTabView/Info.plist; sourceTree = SOURCE_ROOT; };
+		9C5A37D81DD5BDC500665775 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TYZRichTabView/main.m; sourceTree = SOURCE_ROOT; };
+		9C5A37D91DD5BDC500665775 /* pic_001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pic_001.png; path = TYZRichTabView/pic_001.png; sourceTree = SOURCE_ROOT; };
+		9C5A37DA1DD5BDC500665775 /* TestVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestVCViewController.h; path = TYZRichTabView/TestVCViewController.h; sourceTree = SOURCE_ROOT; };
+		9C5A37DB1DD5BDC500665775 /* TestVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestVCViewController.m; path = TYZRichTabView/TestVCViewController.m; sourceTree = SOURCE_ROOT; };
+		9C5A37DD1DD5BDC500665775 /* TYZRichTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYZRichTabView.h; sourceTree = "<group>"; };
+		9C5A37DE1DD5BDC500665775 /* TYZRichTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYZRichTabView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,37 +62,39 @@
 		9C3E21921DD1C2A20065A6DC /* TYZRichTabView */ = {
 			isa = PBXGroup;
 			children = (
-				9C5A37CF1DD5AF6F00665775 /* pic_001.png */,
-				9C5A37C01DD5564E00665775 /* TYZRichTabView */,
-				9C3E21961DD1C2A30065A6DC /* AppDelegate.h */,
-				9C3E21971DD1C2A30065A6DC /* AppDelegate.m */,
-				9C3E219F1DD1C2A30065A6DC /* Assets.xcassets */,
-				9C3E21A11DD1C2A30065A6DC /* LaunchScreen.storyboard */,
-				9C3E21A41DD1C2A30065A6DC /* Info.plist */,
-				9C3E21931DD1C2A20065A6DC /* Supporting Files */,
-				9C5A37C71DD565F200665775 /* TestVCViewController.h */,
-				9C5A37C81DD565F200665775 /* TestVCViewController.m */,
+				9C5A37D11DD5BDC500665775 /* AppDelegate.h */,
+				9C5A37D21DD5BDC500665775 /* AppDelegate.m */,
+				9C5A37D31DD5BDC500665775 /* Assets.xcassets */,
+				9C5A37D41DD5BDC500665775 /* Base.lproj */,
+				9C5A37D71DD5BDC500665775 /* Info.plist */,
+				9C5A37D81DD5BDC500665775 /* main.m */,
+				9C5A37D91DD5BDC500665775 /* pic_001.png */,
+				9C5A37DA1DD5BDC500665775 /* TestVCViewController.h */,
+				9C5A37DB1DD5BDC500665775 /* TestVCViewController.m */,
+				9C5A37DC1DD5BDC500665775 /* TYZRichTabView */,
 			);
 			name = TYZRichTabView;
 			path = Test;
 			sourceTree = "<group>";
 		};
-		9C3E21931DD1C2A20065A6DC /* Supporting Files */ = {
+		9C5A37D41DD5BDC500665775 /* Base.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				9C3E21941DD1C2A20065A6DC /* main.m */,
+				9C5A37D51DD5BDC500665775 /* LaunchScreen.storyboard */,
 			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
+			name = Base.lproj;
+			path = TYZRichTabView/Base.lproj;
+			sourceTree = SOURCE_ROOT;
 		};
-		9C5A37C01DD5564E00665775 /* TYZRichTabView */ = {
+		9C5A37DC1DD5BDC500665775 /* TYZRichTabView */ = {
 			isa = PBXGroup;
 			children = (
-				9C5A37C11DD556C000665775 /* TYZRichTabView.h */,
-				9C5A37C21DD556C000665775 /* TYZRichTabView.m */,
+				9C5A37DD1DD5BDC500665775 /* TYZRichTabView.h */,
+				9C5A37DE1DD5BDC500665775 /* TYZRichTabView.m */,
 			);
-			path = TYZRichTabView;
-			sourceTree = "<group>";
+			name = TYZRichTabView;
+			path = TYZRichTabView/TYZRichTabView;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -151,9 +154,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C3E21A31DD1C2A30065A6DC /* LaunchScreen.storyboard in Resources */,
-				9C5A37D01DD5AF6F00665775 /* pic_001.png in Resources */,
-				9C3E21A01DD1C2A30065A6DC /* Assets.xcassets in Resources */,
+				9C5A37E21DD5BDC500665775 /* Info.plist in Resources */,
+				9C5A37E01DD5BDC500665775 /* Assets.xcassets in Resources */,
+				9C5A37E41DD5BDC500665775 /* pic_001.png in Resources */,
+				9C5A37E11DD5BDC500665775 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,20 +168,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C5A37C91DD565F200665775 /* TestVCViewController.m in Sources */,
-				9C3E21981DD1C2A30065A6DC /* AppDelegate.m in Sources */,
-				9C5A37C31DD556C000665775 /* TYZRichTabView.m in Sources */,
-				9C3E21951DD1C2A20065A6DC /* main.m in Sources */,
+				9C5A37E51DD5BDC500665775 /* TestVCViewController.m in Sources */,
+				9C5A37E61DD5BDC500665775 /* TYZRichTabView.m in Sources */,
+				9C5A37E31DD5BDC500665775 /* main.m in Sources */,
+				9C5A37DF1DD5BDC500665775 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9C3E21A11DD1C2A30065A6DC /* LaunchScreen.storyboard */ = {
+		9C5A37D51DD5BDC500665775 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9C3E21A21DD1C2A30065A6DC /* Base */,
+				9C5A37D61DD5BDC500665775 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -277,9 +281,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Test/Info.plist;
+				INFOPLIST_FILE = TYZRichTabView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Tywin.Test;
+				PRODUCT_BUNDLE_IDENTIFIER = Tywin.TYZRichTabView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -288,9 +292,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Test/Info.plist;
+				INFOPLIST_FILE = TYZRichTabView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Tywin.Test;
+				PRODUCT_BUNDLE_IDENTIFIER = Tywin.TYZRichTabView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
