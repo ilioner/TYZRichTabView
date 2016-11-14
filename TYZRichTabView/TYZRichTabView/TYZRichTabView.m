@@ -122,10 +122,20 @@
             [button setTitle:_titleArray[i] forState:UIControlStateNormal];
             [button setTitleColor:i == 0?[UIColor redColor]:[UIColor grayColor] forState:UIControlStateNormal];
             button.tag = i;
+            [button addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
             [_tabButtonArray addObject:button];
             [_tabBar addSubview:button];
         }
     }
+}
+
+- (void)buttonAction:(UIButton *)sender
+{
+    for (int i = 0; i<_tabButtonArray.count; i++) {
+        UIButton *button = _tabButtonArray[i];
+        [button setTitleColor:i == sender.tag?[UIColor redColor]:[UIColor grayColor] forState:UIControlStateNormal];
+    }
+    [_mainScrollView scrollRectToVisible:CGRectMake(sender.tag*_viewFrame.size.width, 0, _viewFrame.size.width, _viewFrame.size.height) animated:YES];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
