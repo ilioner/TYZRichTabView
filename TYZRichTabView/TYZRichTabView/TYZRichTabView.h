@@ -12,6 +12,7 @@
 @property (nonatomic, weak) id<TYZRichTabViewDelegate> delegate;
 
 - (UIView *)viewForIndex:(NSInteger)index;
+- (void)reloadForIndex:(NSInteger)index;
 
 @end
 
@@ -25,7 +26,7 @@
 - (id)richTabView:(TYZRichTabView *)richTabView viewForIndex:(NSInteger)index;
 - (void)richTabView:(TYZRichTabView *)richTabView scrollTo:(NSInteger)index;
 
-#pragma mark -TableView
+#pragma mark -ContentTableView
 - (NSInteger)richTabView:(TYZRichTabView *)richTabView numberOfSectionsInTableView:(UITableView *)tableView index:(NSInteger)index;
 
 - (NSInteger)richTabView:(TYZRichTabView *)richTabView tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section index:(NSInteger)index;

@@ -15,6 +15,7 @@
 		9C5A37E41DD5BDC500665775 /* pic_001.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5A37D91DD5BDC500665775 /* pic_001.png */; };
 		9C5A37E51DD5BDC500665775 /* TestVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5A37DB1DD5BDC500665775 /* TestVCViewController.m */; };
 		9C5A37E61DD5BDC500665775 /* TYZRichTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5A37DE1DD5BDC500665775 /* TYZRichTabView.m */; };
+		9C732D211DDC027200059848 /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C732D201DDC027200059848 /* header.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		9C5A37DB1DD5BDC500665775 /* TestVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestVCViewController.m; path = TYZRichTabView/TestVCViewController.m; sourceTree = SOURCE_ROOT; };
 		9C5A37DD1DD5BDC500665775 /* TYZRichTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYZRichTabView.h; sourceTree = "<group>"; };
 		9C5A37DE1DD5BDC500665775 /* TYZRichTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYZRichTabView.m; sourceTree = "<group>"; };
+		9C732D201DDC027200059848 /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = header.png; path = TYZRichTabView/header.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		9C3E21921DD1C2A20065A6DC /* TYZRichTabView */ = {
 			isa = PBXGroup;
 			children = (
+				9C732D201DDC027200059848 /* header.png */,
 				9C5A37D11DD5BDC500665775 /* AppDelegate.h */,
 				9C5A37D21DD5BDC500665775 /* AppDelegate.m */,
 				9C5A37D31DD5BDC500665775 /* Assets.xcassets */,
@@ -127,7 +130,8 @@
 				TargetAttributes = {
 					9C3E218F1DD1C2A20065A6DC = {
 						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = G2BS3FU3MZ;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -154,6 +158,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C732D211DDC027200059848 /* header.png in Resources */,
 				9C5A37E21DD5BDC500665775 /* Info.plist in Resources */,
 				9C5A37E01DD5BDC500665775 /* Assets.xcassets in Resources */,
 				9C5A37E41DD5BDC500665775 /* pic_001.png in Resources */,
@@ -210,9 +215,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: li ai (F78NR9FR3R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: li ai (F78NR9FR3R)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = G2BS3FU3MZ;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -257,9 +264,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: li ai (F78NR9FR3R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: li ai (F78NR9FR3R)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = G2BS3FU3MZ;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -281,10 +290,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: li ai (F78NR9FR3R)";
+				DEVELOPMENT_TEAM = G2BS3FU3MZ;
 				INFOPLIST_FILE = TYZRichTabView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Tywin.TYZRichTabView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b62e86fe-b06f-483f-8381-40f0835f1315";
+				PROVISIONING_PROFILE_SPECIFIER = ailidemo;
 			};
 			name = Debug;
 		};
@@ -292,10 +305,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: li ai (F78NR9FR3R)";
+				DEVELOPMENT_TEAM = G2BS3FU3MZ;
 				INFOPLIST_FILE = TYZRichTabView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Tywin.TYZRichTabView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b62e86fe-b06f-483f-8381-40f0835f1315";
+				PROVISIONING_PROFILE_SPECIFIER = ailidemo;
 			};
 			name = Release;
 		};

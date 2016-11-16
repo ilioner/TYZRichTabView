@@ -38,6 +38,12 @@
     }
 }
 
+- (void)reloadForIndex:(NSInteger)index
+{
+    UITableView *tableView = (UITableView *)[self viewForIndex:index];
+    [tableView reloadData];
+}
+
 - (void)setDelegate:(id<TYZRichTabViewDelegate>)delegate
 {
     _delegate = delegate;
@@ -63,7 +69,6 @@
         UITableView *subTBView = [self resetupTableView:subView index:i];
         NSAssert(subView!=nil, @"断在这里说明viewForIndex方法返回的是nil");
         subTBView.frame = CGRectMake(viewWidth*i, 0, viewWidth, viewHeight);
-        NSLog(@"%ld",(long)subTBView.tag);
         [_viewArray addObject:subTBView];
         [_mainScrollView addSubview:subTBView];
     }
@@ -95,7 +100,6 @@
         tableView.dataSource = self;
         tableView.tableHeaderView = headerView;
         
-        NSLog(@"----h  %f",tableView.contentSize.height);
         if (tableView.contentSize.height < _viewFrame.size.height + [self.delegate heightOfHeaderView]) {
             UIView *footerView = [[UIView alloc] init];
             footerView.frame = CGRectMake(0, 0, _viewFrame.size.width, _viewFrame.size.height + [self.delegate heightOfHeaderView] - tableView.contentSize.height);
